@@ -15,6 +15,8 @@ function johnLennonFacts(factsArr) {
   
   let factsExclArr = [];
   
+  i = 0;
+  while i < factsArr.length
   for (i = 0; i < factsArr.length; i++) {
     factsExclArr.push(factsArr[i] + "!!!");
   }
@@ -22,3 +24,6 @@ function johnLennonFacts(factsArr) {
   return factsExclArr;
 }
 
+function iLoveTheBeatles(num) {
+  
+}
